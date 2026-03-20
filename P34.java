@@ -1,6 +1,11 @@
+import java.util.Arrays;
+
 class P34{
-    
-    public int[] searchRange(int[] nums, int target) {
+    public static void main(String[] args) {
+        int arr[]={1,2,3,4,4,4,4,4,5,5,5,5,6,6,6,7};
+        System.out.println(Arrays.toString(searchRange(arr,4)));
+    }
+    static int[] searchRange(int[] nums, int target) {
         int[] indexes={-1,-1};
 
         int start=findindex(nums,target,true);
