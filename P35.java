@@ -15,16 +15,9 @@ class Solution {
                 return mid;
             }
         }
-          while(beg<nums.length-1){
-            // mid=beg+(end-beg)/2;
-            int mide=0;
-            if(target>nums[mide] && target<nums[mide+1]){
-                return mide+1;
-            }
-            mide++;
-        }
+         
 
-        return -1;
+        return beg;
         
     }
 }
