@@ -1,4 +1,4 @@
-class p74 {
+class p240 {
     public boolean searchMatrix(int[][] arr, int target) {
 
         int row = 0;
